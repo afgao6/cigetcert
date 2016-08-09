@@ -423,7 +423,7 @@ def main():
                       type="float", metavar="num", default=12,
                       help="minimum hours remaining in existing cert chain " + \
                             "to keep using it instead of making a new one")
-    weekhours = 24 * 7
+    weekhours = 24 * 11
     weekstr = str(weekhours)
     yearhours = int(24 * (365.5 + 31))
     yearstr = str(yearhours)
